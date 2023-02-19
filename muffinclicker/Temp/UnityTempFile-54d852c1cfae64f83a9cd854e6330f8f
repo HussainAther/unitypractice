@@ -1,0 +1,583 @@
+/target:library
+/out:"Temp/Unity.Timeline.Editor.dll"
+/nowarn:0169
+/nowarn:0649
+/refout:"Temp/Unity.Timeline.Editor.dll.ref"
+/deterministic
+/debug:portable
+/optimize+
+/nostdlib+
+/preferreduilang:en-US
+/langversion:8.0
+/reference:"Library/ScriptAssemblies/Unity.Timeline.dll"
+/reference:"Library/ScriptAssemblies/UnityEditor.TestRunner.dll"
+/reference:"Library/ScriptAssemblies/UnityEditor.UI.dll"
+/reference:"Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
+/reference:"Library/ScriptAssemblies/UnityEngine.UI.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIServiceModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GIModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.IO.Compression.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+/reference:"/Volumes/One Touch/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+/reference:"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+/reference:"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+/reference:"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+/reference:"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll"
+/reference:"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+/define:CSHARP_7_3_OR_NEWER
+/define:CSHARP_7_OR_LATER
+/define:DEBUG
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_BURST_AOT
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_GAMECENTER
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_LZMA
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_UNITYTLS
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MONO
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_MOVIES
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_NETWORK
+/define:ENABLE_PHYSICS
+/define:ENABLE_PROFILER
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_SPATIALTRACKING
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_UNET
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_VIDEO
+/define:ENABLE_VIRTUALTEXTURING
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_WWW
+/define:INCLUDE_DYNAMIC_GI
+/define:NET_4_6
+/define:PLATFORM_ARCH_64
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_OSX
+/define:PLATFORM_SUPPORTS_MONO
+/define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+/define:RENDER_SOFTWARE_CURSOR
+/define:SCENE_TEMPLATE_MODULE
+/define:TRACE
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_2020
+/define:UNITY_2020_1_OR_NEWER
+/define:UNITY_2020_2_OR_NEWER
+/define:UNITY_2020_3
+/define:UNITY_2020_3_34
+/define:UNITY_2020_3_OR_NEWER
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_64
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_OSX
+/define:UNITY_INCLUDE_TESTS
+/define:UNITY_STANDALONE
+/define:UNITY_STANDALONE_OSX
+/define:UNITY_TEAM_LICENSE
+/define:USE_SEARCH_ENGINE_API
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/ActionContext.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/ActionManager.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/ClipAction.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/ClipsActions.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/IAction.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/IMenuChecked.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/IMenuName.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/Invoker.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/MarkerAction.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/MarkerActions.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/Menus/MenuItemActionBase.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/Menus/TimelineContextMenu.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/TimelineAction.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/TimelineActions.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/TrackAction.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/TrackActions.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Activation/ActivationTrackEditor.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Activation/ActivationTrackInspector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Analytics/TimelineAnalytics.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Animation/AnimationClipActions.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Animation/AnimationClipCurveCache.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Animation/AnimationClipExtensions.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Animation/AnimationOffsetMenu.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Animation/AnimationPlayableAssetEditor.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Animation/AnimationTrackActions.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Animation/BindingSelector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Animation/BindingTreeViewDataSource.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Animation/BindingTreeViewDataSourceGUI.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Animation/ClipCurveEditor.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Animation/CurveDataSource.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Animation/CurveTreeViewNode.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Animation/CurvesProxy.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Animation/TimelineAnimationUtilities.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Attributes/ActiveInModeAttribute.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Attributes/MenuEntryAttribute.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Attributes/ShortcutAttribute.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Attributes/TimelineShortcutAttribute.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Audio/AudioClipPropertiesDrawer.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Audio/AudioPlayableAssetEditor.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Audio/AudioPlayableAssetInspector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Audio/AudioTrackInspector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/ControlTrack/ControlPlayableAssetEditor.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/CurveEditUtility.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/CustomEditors/ClipEditor.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/CustomEditors/CustomTimelineEditorCache.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/CustomEditors/MarkerEditor.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/CustomEditors/MarkerTrackEditor.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/CustomEditors/TrackEditor.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/DirectorNamedColor.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/DirectorStyles.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Extensions/AnimatedParameterExtensions.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Extensions/AnimationTrackExtensions.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Extensions/TrackExtensions.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Items/ClipItem.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Items/ITimelineItem.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Items/ItemsGroup.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Items/ItemsPerTrack.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Items/ItemsUtils.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Items/MarkerItem.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/AddDelete/AddDeleteItemModeMix.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/AddDelete/AddDeleteItemModeReplace.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/AddDelete/AddDeleteItemModeRipple.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/AddDelete/IAddDeleteItemMode.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Cursors/TimelineCursors.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/EditMode.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/EditModeInputHandler.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Move/IMoveItemMode.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Move/MoveItemHandler.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Move/MoveItemModeMix.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Move/MoveItemModeReplace.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Move/MoveItemModeRipple.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Move/MovingItems.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Sequence/EaseClip.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Sequence/Jog.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Sequence/MarkerHeaderContextMenu.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Sequence/RectangleSelect.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Sequence/RectangleTool.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Sequence/RectangleZoom.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Sequence/SelectAndMoveItem.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Sequence/TrackZoom.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Sequence/TrimClip.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/TimeAreaAutoPanner.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/TimeIndicator.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/TimelineClipGroup.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Trim/ITrimItemMode.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Trim/TrimItemModeMix.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Trim/TrimItemModeReplace.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Trim/TrimItemModeRipple.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Utils/EditModeGUIUtils.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Utils/EditModeMixUtils.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Utils/EditModeReplaceUtils.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Utils/EditModeRippleUtils.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Utils/EditModeUtils.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Utils/ManipulatorsUtils.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Manipulators/Utils/PlacementValidity.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/MenuPriority.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Playables/ControlPlayableInspector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Properties/AssemblyInfo.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Recording/AnimationTrackRecorder.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Recording/TimelineRecording.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Recording/TimelineRecordingContextualResponder.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Recording/TimelineRecording_Monobehaviour.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Recording/TimelineRecording_PlayableAsset.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Recording/TrackAssetRecordingExtensions.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Shortcuts.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Signals/SignalAssetInspector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Signals/SignalEmitterEditor.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Signals/SignalEmitterInspector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Signals/SignalEventDrawer.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Signals/SignalManager.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Signals/SignalReceiverHeader.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Signals/SignalReceiverInspector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Signals/SignalUtility.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Signals/Styles.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Signals/TreeView/SignalListFactory.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Signals/TreeView/SignalReceiverItem.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Signals/TreeView/SignalReceiverTreeView.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/State/ISequenceState.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/State/SequenceHierarchy.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/State/SequencePath.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/State/SequenceState.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/State/WindowState.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/TimelineEditor.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/TimelineHelpers.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/TimelineSelection.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/TimelineUtility.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Tooltip.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Trackhead.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Undo/ApplyDefaultUndoAttribute.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Undo/UndoExtensions.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Undo/UndoScope.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/UnityEditorInternals.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/AnimatedParameterCache.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/AnimatedParameterUtility.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/AnimatedPropertyUtility.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/BindingUtility.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/BreadcrumbDrawer.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/ClipModifier.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/Clipboard.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/ControlPlayableUtility.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/CustomTrackDrawerAttribute.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/DisplayNameHelper.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/Graphics.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/KeyTraverser.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/MarkerModifier.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/ObjectExtension.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/ObjectReferenceField.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/PropertyCollector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/Range.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/Scopes/GUIColorOverride.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/Scopes/GUIGroupScope.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/Scopes/GUIMixedValueScope.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/Scopes/GUIViewportScope.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/Scopes/HorizontalScope.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/Scopes/IndentLevelScope.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/Scopes/LabelWidthScope.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/Scopes/PropertyScope.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/SequenceSelectorNameFormater.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/SpacePartitioner.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/StyleManager.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/StyleNormalColorOverride.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/TimeReferenceUtility.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/TimelineKeyboardNavigation.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/TrackModifier.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/TrackResourceCache.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Utilities/TypeUtility.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/Modes/TimeReferenceMode.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/Modes/TimelineActiveMode.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/Modes/TimelineAssetEditionMode.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/Modes/TimelineDisabledMode.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/Modes/TimelineInactiveMode.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/Modes/TimelineMode.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/Modes/TimelineReadOnlyMode.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/PlaybackScroller.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineMarkerHeaderGUI.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindowTimeControl.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow_ActiveTimeline.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow_Breadcrumbs.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow_Duration.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow_EditorCallbacks.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow_Gui.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow_HeaderGui.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow_Manipulators.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow_PlayRange.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow_PlayableLookup.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow_PreviewPlayMode.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow_Selection.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow_StateChange.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow_TimeArea.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow_TimeCursor.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow_TrackGui.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/ViewModel/ScriptableObjectViewPrefs.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/ViewModel/TimelineAssetViewModel.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/ViewModel/TimelineWindowViewPrefs.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/WindowConstants.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/AnimationPlayableAssetInspector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/AnimationTrackInspector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/BasicAssetInspector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/BuiltInCurvePresets.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/ClipInspector/ClipInspector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/ClipInspector/ClipInspectorCurveEditor.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/ClipInspector/ClipInspectorSelectionInfo.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/CurvesOwner/CurvesOwnerInspectorHelper.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/CurvesOwner/ICurvesOwnerInspectorWrapper.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/DirectorNamedColorInspector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/EditorClip.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/EditorClipFactory.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/GroupTrackInspector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/MarkerInspector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/TimeFieldDrawer.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/TimelineAssetInspector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/TimelineInspectorUtility.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/TimelinePreferences.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/TimelineProjectSettings.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/inspectors/TrackAssetInspector.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/AnimationTrackKeyDataSource.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/Control.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/Drawers/AnimationTrackDrawer.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/Drawers/ClipDrawer.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/Drawers/InfiniteTrackDrawer.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/Drawers/Layers/ClipsLayer.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/Drawers/Layers/ItemsLayer.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/Drawers/Layers/MarkersLayer.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/Drawers/TrackDrawer.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/Drawers/TrackItemsDrawer.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/IPropertyKeyDataSource.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/IRowGUI.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/ItemGui/ISelectable.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/ItemGui/TimelineClipGUI.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/ItemGui/TimelineItemGUI.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/ItemGui/TimelineMarkerClusterGUI.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/ItemGui/TimelineMarkerGUI.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/ManipulationsClips.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/ManipulationsTimeline.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/ManipulationsTracks.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/Manipulator.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/PickerUtils.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/Snapping/IAttractable.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/Snapping/ISnappable.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/Snapping/SnapEngine.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/TimelineClipHandle.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/TimelineClipUnion.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/TimelineDataSource.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/TimelineDragging.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/TimelineTreeView.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/TimelineTreeViewGUI.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/TrackGui/InlineCurveEditor.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/TrackGui/TimelineGroupGUI.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/TrackGui/TimelineTrackBaseGUI.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/TrackGui/TimelineTrackErrorGUI.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/TrackGui/TimelineTrackGUI.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/TrackGui/TrackResizeHandle.cs"
+"/Volumes/One Touch/UnityProjects/Muffin Clicker/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/TrackPropertyCurvesDataSource.cs"
