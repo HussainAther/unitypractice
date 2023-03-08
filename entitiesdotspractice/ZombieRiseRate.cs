@@ -2,9 +2,8 @@ using Unity.Entities;
 
 namespace TMG.Zombies
 {
-    public struct BrainHealth : IComponentData
+    public struct ZombieRiseRate : IComponentData
     {
         public float Value;
-        public float Max;
     }
 }
