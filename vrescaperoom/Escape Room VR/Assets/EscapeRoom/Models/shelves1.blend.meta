@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 3c2e86176f66d9d40ab6914c14f39b2a
+timeCreated: 1516916332
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: MultiEdit
+    100002: New_Geometry_001_dupl1
+    100004: New_Geometry_002_dupl2
+    100006: New_Geometry_003_dupl3
+    100008: New_Geometry_004_dupl4
+    100010: New_Geometry_005_dupl5
+    100012: New_Geometry_006_dupl6
+    100014: New_Geometry_007_dupl7
+    100016: New_Geometry_008_dupl8
+    100018: New_Geometry_dupl0
+    100020: //RootNode
+    100022: New_Geometry
+    100024: New_Geometry_001
+    100026: New_Geometry_002
+    100028: New_Geometry_003
+    100030: New_Geometry_004
+    100032: New_Geometry_005
+    100034: New_Geometry_006
+    100036: New_Geometry_007
+    100038: New_Geometry_008
+    400000: MultiEdit
+    400002: New_Geometry_001_dupl1
+    400004: New_Geometry_002_dupl2
+    400006: New_Geometry_003_dupl3
+    400008: New_Geometry_004_dupl4
+    400010: New_Geometry_005_dupl5
+    400012: New_Geometry_006_dupl6
+    400014: New_Geometry_007_dupl7
+    400016: New_Geometry_008_dupl8
+    400018: New_Geometry_dupl0
+    400020: //RootNode
+    400022: New_Geometry
+    400024: New_Geometry_001
+    400026: New_Geometry_002
+    400028: New_Geometry_003
+    400030: New_Geometry_004
+    400032: New_Geometry_005
+    400034: New_Geometry_006
+    400036: New_Geometry_007
+    400038: New_Geometry_008
+    2100000: unnamed
+    2100002: Material_004
+    2100004: Material_003
+    2100006: Material_002
+    2100008: Material_001
+    2100010: Main
+    2300000: MultiEdit
+    2300002: New_Geometry_001_dupl1
+    2300004: New_Geometry_002_dupl2
+    2300006: New_Geometry_003_dupl3
+    2300008: New_Geometry_004_dupl4
+    2300010: New_Geometry_005_dupl5
+    2300012: New_Geometry_006_dupl6
+    2300014: New_Geometry_007_dupl7
+    2300016: New_Geometry_008_dupl8
+    2300018: New_Geometry_dupl0
+    2300020: New_Geometry
+    2300022: New_Geometry_001
+    2300024: New_Geometry_002
+    2300026: New_Geometry_003
+    2300028: New_Geometry_004
+    2300030: New_Geometry_005
+    2300032: New_Geometry_006
+    2300034: New_Geometry_007
+    2300036: New_Geometry_008
+    3300000: MultiEdit
+    3300002: New_Geometry_001_dupl1
+    3300004: New_Geometry_002_dupl2
+    3300006: New_Geometry_003_dupl3
+    3300008: New_Geometry_004_dupl4
+    3300010: New_Geometry_005_dupl5
+    3300012: New_Geometry_006_dupl6
+    3300014: New_Geometry_007_dupl7
+    3300016: New_Geometry_008_dupl8
+    3300018: New_Geometry_dupl0
+    3300020: New_Geometry
+    3300022: New_Geometry_001
+    3300024: New_Geometry_002
+    3300026: New_Geometry_003
+    3300028: New_Geometry_004
+    3300030: New_Geometry_005
+    3300032: New_Geometry_006
+    3300034: New_Geometry_007
+    3300036: New_Geometry_008
+    4300000: New_Geometry_008_dupl8
+    4300002: New_Geometry_007_dupl7
+    4300004: New_Geometry_006_dupl6
+    4300006: New_Geometry_005_dupl5
+    4300008: New_Geometry_004_dupl4
+    4300010: New_Geometry_003_dupl3
+    4300012: New_Geometry_002_dupl2
+    4300014: New_Geometry_001_dupl1
+    4300016: New_Geometry_dupl0
+    4300018: MultiEdit
+    4300020: New_Geometry_008
+    4300022: New_Geometry_007
+    4300024: New_Geometry_006
+    4300026: New_Geometry_005
+    4300028: New_Geometry_004
+    4300030: New_Geometry_003
+    4300032: New_Geometry_002
+    4300034: New_Geometry_001
+    4300036: New_Geometry
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main
+    second: {fileID: 2100000, guid: 80964243e6f5bee45985c28b408dd659, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
