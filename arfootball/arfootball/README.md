@@ -16,11 +16,3 @@
 
 ## About *ProjectSettings*
 I hide this folder on `.gitignore`, because there is my vuforia key there.
-
-
-# AR Penalty
-
-![kick](http://image.apkpure.com/image/screen/uno.bai.geekgame.arfootball-1=500.png)
-
-![tips](http://image.apkpure.com/image/screen/uno.bai.geekgame.arfootball-2=355.png)
-
