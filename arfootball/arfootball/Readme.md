@@ -24,7 +24,3 @@ I hide this folder on `.gitignore`, because there is my vuforia key there.
 
 ![tips](http://image.apkpure.com/image/screen/uno.bai.geekgame.arfootball-2=355.png)
 
-- 1.01 Youtube  https://youtu.be/w7Y4oYP5oRM
-- 1.0  Youtube  https://youtu.be/Ha7RN8ghUxw
-- [Google Play](https://play.google.com/store/apps/details?id=uno.bai.geekgame.arfootball)
-- [More](https://geekgame.bai.uno/ar-football/penalty.html) 
