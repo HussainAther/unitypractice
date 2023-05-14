@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CameraController : MonoBehaviour
+public class CameraController : MonoBehaviour // Code for camera movement alongside player.
 {
     public Transform target;
     public float cameraDistance = 10.0f;
